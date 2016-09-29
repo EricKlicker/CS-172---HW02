@@ -57,5 +57,5 @@ bool fan::getOn()
 }
 
 
-}
+
 

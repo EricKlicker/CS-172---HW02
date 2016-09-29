@@ -14,6 +14,14 @@ using namespace std;
 int main ()
 {
     
+    fan f1,f2;
+    f1.setSpeed(3);
+    f1.setRadius(10);
+    f1.turnOn();
+    
+    cout << "Fan speed: " << f1.getSpeed() << endl;
+    cout << "Fan radius: " << f1.getRadius() << endl;
+    cout << "The fan is: " << f1.getOn() << endl;
     
     
     
