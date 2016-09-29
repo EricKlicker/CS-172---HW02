@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6DD626611D9B2CBD00B184B8 /* fan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DD626601D9B2CBD00B184B8 /* fan.cpp */; };
+		6DD626651D9DC0C100B184B8 /* QuadraticEquation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DD626631D9DC0C100B184B8 /* QuadraticEquation.cpp */; };
 		6DD674621D987EDB00BF5B72 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DD674611D987EDB00BF5B72 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,8 @@
 /* Begin PBXFileReference section */
 		6DD626331D99C7CD00B184B8 /* fan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fan.h; sourceTree = "<group>"; };
 		6DD626601D9B2CBD00B184B8 /* fan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fan.cpp; sourceTree = "<group>"; };
+		6DD626621D9DC09800B184B8 /* QuadraticEquation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuadraticEquation.h; sourceTree = "<group>"; };
+		6DD626631D9DC0C100B184B8 /* QuadraticEquation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuadraticEquation.cpp; sourceTree = "<group>"; };
 		6DD6745E1D987EDB00BF5B72 /* HW 02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HW 02"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD674611D987EDB00BF5B72 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,8 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				6DD674611D987EDB00BF5B72 /* main.cpp */,
-				6DD626601D9B2CBD00B184B8 /* fan.cpp */,
 				6DD626331D99C7CD00B184B8 /* fan.h */,
+				6DD626601D9B2CBD00B184B8 /* fan.cpp */,
+				6DD626621D9DC09800B184B8 /* QuadraticEquation.h */,
+				6DD626631D9DC0C100B184B8 /* QuadraticEquation.cpp */,
 			);
 			path = "HW 02";
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DD674621D987EDB00BF5B72 /* main.cpp in Sources */,
+				6DD626651D9DC0C100B184B8 /* QuadraticEquation.cpp in Sources */,
 				6DD626611D9B2CBD00B184B8 /* fan.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,7 +20,7 @@ fan::fan()
 }
 void fan::setSpeed(int newSpeed)
 {
-    if (newSpeed >= 1 || newSpeed<=3)
+    if (newSpeed >= 1 && newSpeed<=3)
         speed = newSpeed;
 }
 void fan::setRadius(int newRadius)
