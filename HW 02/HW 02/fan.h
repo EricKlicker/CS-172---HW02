@@ -11,21 +11,27 @@ using namespace std;
 #ifndef fan_h
 #define fan_h
 
-
+class fan
+{
+private:
+    double radius;
+    bool on;
+    int speed;
+    
+    
+public:
+    fan ();
+    
+    void setSpeed(int newSpeed);
+    void setRadius(int newRadius);
+    void turnOn();
+    void turnOff();
+    double getRadius();
+    int getSpeed();
+    bool getOn();
+    
+};
 #endif 
 
 
 
-class fan
-{
-private:
-    
-    double radius;
-    
-public:
-    int speed;
-    bool on;
-    
-    
-    
-};
