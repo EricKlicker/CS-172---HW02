@@ -31,19 +31,24 @@ void EvenNumber::setValue(int NewValue)
 
 void EvenNumber::setNext(int NextNumber)
 {
-    NextNumber = NewValue + 2;
+    NextNumber = x + 2;
 }
 
 
 void EvenNumber::setPrevious (int PreviousNumber)
 {
-    PreviousNumber = NewValue -2;
-    
+    PreviousNumber = x -2;
 }
 
 int EvenNumber::getValue()
 {
-    return NewValue;
-
+    return x;
 }
-
+int EvenNumber::getNext()
+{
+    return x;
+}
+int EvenNumber::getPrevious()
+{
+    return x;
+}

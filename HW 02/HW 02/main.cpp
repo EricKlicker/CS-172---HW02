@@ -62,16 +62,24 @@ int main ()
             cout << "the root is" << q1.getRoot1() << endl;
     
             else
-                cout << "The roots are: " << q1.getRoot1()<< " and " << q1.getRoot2()<<endl;
+                cout << "The roots are: " << q1.getRoot1()<< " and " << q1.getRoot2()<<endl << endl;
     
    
     
   
   //ex 9.1
+    EvenNumber n1;
+    
+    n1.setValue(16);
     
     
+    cout << n1.getValue() << endl;
     
+    n1.setNext(16);
+    n1.setPrevious(16);
     
+    cout << n1.getNext() << endl;
+    cout << n1.getPrevious() << endl;
 
     
     
