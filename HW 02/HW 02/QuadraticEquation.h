@@ -11,8 +11,10 @@
 #include <iostream>
 using namespace std;
 
+//create class for the quadratic equation
 class QuadraticEquation
 {
+    //private for variables
 private:
     double a;
     double b;
@@ -21,11 +23,13 @@ private:
     double r2;
     
 public:
+    //create void funcitons for setting values of a,b,c
     QuadraticEquation();
     void setA(int newA);
     void setB(int newB);
     void setC(int newC);
     
+    //create returning functions
     double getDiscriminant();
     double getRoot1();
     double getRoot2();

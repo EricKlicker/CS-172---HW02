@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6DD626611D9B2CBD00B184B8 /* fan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DD626601D9B2CBD00B184B8 /* fan.cpp */; };
 		6DD626651D9DC0C100B184B8 /* QuadraticEquation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DD626631D9DC0C100B184B8 /* QuadraticEquation.cpp */; };
+		6DD626671D9ED82800B184B8 /* EvenNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DD626661D9ED82800B184B8 /* EvenNumber.cpp */; };
 		6DD674621D987EDB00BF5B72 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DD674611D987EDB00BF5B72 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,8 @@
 		6DD626601D9B2CBD00B184B8 /* fan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fan.cpp; sourceTree = "<group>"; };
 		6DD626621D9DC09800B184B8 /* QuadraticEquation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuadraticEquation.h; sourceTree = "<group>"; };
 		6DD626631D9DC0C100B184B8 /* QuadraticEquation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuadraticEquation.cpp; sourceTree = "<group>"; };
+		6DD626661D9ED82800B184B8 /* EvenNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EvenNumber.cpp; sourceTree = "<group>"; };
+		6DD626681D9ED83700B184B8 /* EvenNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EvenNumber.h; sourceTree = "<group>"; };
 		6DD6745E1D987EDB00BF5B72 /* HW 02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HW 02"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD674611D987EDB00BF5B72 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +71,8 @@
 				6DD626601D9B2CBD00B184B8 /* fan.cpp */,
 				6DD626621D9DC09800B184B8 /* QuadraticEquation.h */,
 				6DD626631D9DC0C100B184B8 /* QuadraticEquation.cpp */,
+				6DD626681D9ED83700B184B8 /* EvenNumber.h */,
+				6DD626661D9ED82800B184B8 /* EvenNumber.cpp */,
 			);
 			path = "HW 02";
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			files = (
 				6DD674621D987EDB00BF5B72 /* main.cpp in Sources */,
 				6DD626651D9DC0C100B184B8 /* QuadraticEquation.cpp in Sources */,
+				6DD626671D9ED82800B184B8 /* EvenNumber.cpp in Sources */,
 				6DD626611D9B2CBD00B184B8 /* fan.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

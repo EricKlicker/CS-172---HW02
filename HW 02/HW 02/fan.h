@@ -11,6 +11,7 @@ using namespace std;
 #ifndef fan_h
 #define fan_h
 
+//create class fan with private variables
 class fan
 {
 private:
@@ -21,7 +22,8 @@ private:
     
 public:
     fan ();
-    
+    //create void funcitons that I will implement in my cpp.file
+    //including setting values and then returning them
     void setSpeed(int newSpeed);
     void setRadius(int newRadius);
     void turnOn();
