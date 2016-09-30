@@ -37,7 +37,7 @@ void EvenNumber::setNext(int NextNumber)
 
 void EvenNumber::setPrevious (int PreviousNumber)
 {
-    PreviousNumber = x -2;
+    PreviousNumber = x - 2;
 }
 
 int EvenNumber::getValue()

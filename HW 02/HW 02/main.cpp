@@ -75,8 +75,8 @@ int main ()
     
     cout << n1.getValue() << endl;
     
-    n1.setNext(16);
-    n1.setPrevious(16);
+    n1.setNext(x);
+    n1.setPrevious(x);
     
     cout << n1.getNext() << endl;
     cout << n1.getPrevious() << endl;
